@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+body{
+    background-image: url(Windy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+}
+
+.form{
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+
+.form button{
+    padding: 1px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: transparent;
+    background-image: url(Windy.jpg)     ;
+    transition: all 0.3s ease-out;
+    
+}
+
+.form button:hover{
+    background-color: wheat;
+    padding: 3px;
+}
+
+.form input{
+    background-color: transparent;
+    border:1px solid;
+    border-color: transparent;
+    color: black;
+    
+}
+
+.tasks{
+    
+    font-family: 'Indie Flower',cursive;
+}
